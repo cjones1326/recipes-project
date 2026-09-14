@@ -1,0 +1,67 @@
+header {
+    text-align: center;
+    padding: 48px;
+}
+
+.intro {
+    overflow: auto;
+}
+
+.image,
+.description {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 32px;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.recipe-info {
+    text-align: center;
+    padding: 26px;
+}
+
+.recipe-content {
+    overflow: auto;
+}
+
+.ingredients,
+.instructions {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 32px;
+}
+
+main {
+    min-height: 70vh;
+}
+
+footer {
+    text-align: center;
+    padding: 16px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .image,
+    .description {
+        float: none;
+        width: 100%;
+    }
+
+    .ingredients,
+    .instructions {
+        float: none;
+        width: 100%;
+    }
+
+}
