@@ -50,6 +50,10 @@ header {
     padding: 32px;
 }
 
+.call-to-action {
+    padding: 32px;
+}
+
 main {
     min-height: 70vh;
 }
