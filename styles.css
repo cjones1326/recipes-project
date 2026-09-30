@@ -8,12 +8,18 @@ header {
     padding: 48px;
 }
 
-.intro {
+.intro,
+.home-content,
+.recipe-content,
+.resources-content {
     overflow: auto;
 }
 
 .image,
-.description {
+.description,
+.recipe-list,
+.ingredients,
+.instructions {
     float: left;
     width: 50%;
     box-sizing: border-box;
@@ -32,26 +38,6 @@ header {
 .recipe-info {
     text-align: center;
     padding: 26px;
-}
-
-.recipe-content {
-    overflow: auto;
-}
-
-.ingredients,
-.instructions {
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 32px;
-}
-
-.recipe-list {
-    padding: 32px;
-}
-
-.resources-content {
-    overflow: auto;
 }
 
 .resource-section {
@@ -75,19 +61,11 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-
     .image,
-    .description {
-        float: none;
-        width: 100%;
-    }
-
+    .description,
+    .recipe-list,
     .ingredients,
-    .instructions {
-        float: none;
-        width: 100%;
-    }
-
+    .instructions,
     .resource-section {
         float: none;
         width: 100%;
@@ -97,5 +75,4 @@ footer {
         display: inline-block;
         padding: 15px;
     }
-
 }
