@@ -5,7 +5,7 @@ body {
 
 header {
     text-align: center;
-    padding: 48px;
+    padding: 32px;
 }
 
 .intro,
@@ -37,7 +37,7 @@ header {
 
 .recipe-info {
     text-align: center;
-    padding: 26px;
+    padding: 24px;
 }
 
 .resource-section {
@@ -45,6 +45,49 @@ header {
     width: 33.33%;
     box-sizing: border-box;
     padding: 32px;
+}
+
+.converter-content {
+    padding: 32px;
+}
+
+#converter-form {
+    width: 100%;
+}
+
+#amount {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.unit-options {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 16px;
+    margin-left: 0;
+}
+
+.unit-options label {
+    display: block;
+}
+
+#converter-form button {
+    margin-top: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
 }
 
 .call-to-action {
@@ -61,6 +104,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+
     .image,
     .description,
     .recipe-list,

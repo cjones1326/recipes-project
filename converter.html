@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="A simple cooking volume converter.">
+
+    <title>Cooking Volume Converter</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cooking Volume Converter</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="converter-content">
+            <h2>Convert Cooking Measurements</h2>
+
+            <p>
+                Enter an amount and select a unit to view common cooking
+                volume conversions.
+            </p>
+
+            <form id="converter-form">
+                <label for="amount">Amount</label>
+
+                <input
+                    type="number"
+                    id="amount"
+                    name="amount"
+                    min="0.01"
+                    step="any"
+                    required>
+
+                <fieldset class="unit-options">
+                    <legend>Unit</legend>
+
+                    <label>
+                        <input type="radio" name="unit" value="cups" required>
+                        Cups
+                    </label>
+
+                    <label>
+                        <input type="radio" name="unit" value="tablespoons">
+                        Tablespoons
+                    </label>
+
+                    <label>
+                        <input type="radio" name="unit" value="teaspoons">
+                        Teaspoons
+                    </label>
+
+                    <label>
+                        <input type="radio" name="unit" value="milliliters">
+                        Milliliters
+                    </label>
+
+                    <label>
+                        <input type="radio" name="unit" value="liters">
+                        Liters
+                    </label>
+                </fieldset>
+
+                <button type="submit">Convert</button>
+            </form>
+
+            <h2>Conversion Results</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Unit</th>
+                        <th scope="col">Amount</th>
+                    </tr>
+                </thead>
+
+                <tbody id="conversion-results">
+                    <tr>
+                        <td colspan="2">
+                            Enter a measurement above to view conversions.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <div class="call-to-action">
+            <p><a href="index.html">View Recipes</a></p>
+            <p><a href="resources.html">Cooking Resources</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="index.html">Caleb's Recipes</a></p>
+    </footer>
+
+</body>
+
+</html>
