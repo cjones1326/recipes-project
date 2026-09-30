@@ -50,6 +50,17 @@ header {
     padding: 32px;
 }
 
+.resources-content {
+    overflow: auto;
+}
+
+.resource-section {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 32px;
+}
+
 .call-to-action {
     padding: 32px;
 }
@@ -73,6 +84,11 @@ footer {
 
     .ingredients,
     .instructions {
+        float: none;
+        width: 100%;
+    }
+
+    .resource-section {
         float: none;
         width: 100%;
     }
