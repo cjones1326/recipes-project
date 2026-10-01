@@ -1,11 +1,23 @@
 body {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
+    background-color: #e2d9d9;
+    color: #111111;
 }
 
 header {
-    text-align: center;
-    padding: 32px;
+    padding: 48px;
+    background-color: #3a4451;
+    color: white;
+}
+
+header a {
+    color: white;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px;
 }
 
 .intro,
@@ -37,7 +49,7 @@ header {
 
 .recipe-info {
     text-align: center;
-    padding: 24px;
+    padding: 26px;
 }
 
 .resource-section {
@@ -55,18 +67,21 @@ header {
     width: 100%;
 }
 
+#converter-form > label {
+    display: block;
+}
+
 #amount {
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 16px;
+    border: 1px solid #0c0c0c;
 }
 
 .unit-options {
     box-sizing: border-box;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 16px;
-    margin-left: 0;
+    margin: 0 0 16px 0;
+    border: 1px solid #0c0c0c;
 }
 
 .unit-options label {
@@ -75,6 +90,10 @@ header {
 
 #converter-form button {
     margin-top: 8px;
+    background-color: #3a4451;
+    color: white;
+    border: 1px solid #0c0c0c;
+    padding: 10px 16px;
 }
 
 table {
@@ -85,7 +104,7 @@ table {
 
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid #0c0c0c;
     padding: 8px;
     text-align: left;
 }
@@ -96,15 +115,32 @@ td {
 
 main {
     min-height: 70vh;
+    background-color: rgb(200, 200, 200);
+}
+
+a {
+    color: #1152ac;
+}
+
+a:focus,
+button:focus,
+input:focus {
+    outline: 4px solid #be2e2e;
+    outline-offset: 2px;
 }
 
 footer {
     text-align: center;
     padding: 16px;
+    background-color: #3a4451;
+    color: white;
+}
+
+footer a {
+    color: white;
 }
 
 @media screen and (max-width: 600px) {
-
     .image,
     .description,
     .recipe-list,
@@ -113,10 +149,5 @@ footer {
     .resource-section {
         float: none;
         width: 100%;
-    }
-
-    nav a {
-        display: inline-block;
-        padding: 15px;
     }
 }
