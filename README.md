@@ -25,3 +25,4 @@
 * Add JavaScript for the cooking converter to calculate the values and fill in the table.
 * Create and add a logo.
 * Add more images to meet the three image requirement.
+* Basic page titles and meta descriptions are used, but SEO requirements need added.
