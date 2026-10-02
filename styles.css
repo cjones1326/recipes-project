@@ -47,6 +47,10 @@ nav a {
     height: auto;
 }
 
+figcaption {
+    font-size: 12px;
+}
+
 .recipe-info {
     text-align: center;
     padding: 26px;
