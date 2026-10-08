@@ -53,6 +53,12 @@ nav a {
     height: auto;
 }
 
+.measuring-cup-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
 figcaption {
     font-size: 12px;
 }
